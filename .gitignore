@@ -1,2 +1,6 @@
 node_modules
+<<<<<<< HEAD
+=======
+npm-debug.log
+>>>>>>> 5f6bacd749c40b5196f0a932c9d35dc7a4ac2336
 .DS_Store

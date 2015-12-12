@@ -1,4 +1,4 @@
-// input bar #messageInput, submit button #messageSubmit
+//input field = #messageInput, submit button = #messageSubmit
 var FormView = Backbone.View.extend({
   el: '#form',
 
