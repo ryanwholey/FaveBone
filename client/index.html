@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" type="css/text" href="./styles/style.css"/>
+</head>
+<body>
+
+  <div id='root'>
+    <form id='form'>
+      <input id='messageInput' class='defaultTextBox' type='text' placeholder='enter message..'/>
+      <input id='messageSubmit' type='button' value='submit'/>
+    </form>
+    <div id='app'></div>
+  </div>
+
+  <script src='./lib/jquery.js'></script>
+  <script src='./lib/underscore.js'></script>
+  <script src='./lib/backbone.js'></script>
+
+  <!-- Models -->
+  <script src='./models/App.js'></script>
+  <script src='./models/Message.js'></script>
+
+  <!-- Collections -->
+  <script src='./Collections/Messages.js'></script>
+
+  <!-- Views -->
+  <script src='./views/AppView.js'></script>
+  <script src='./views/MessageView.js'></script>
+  <script src='./views/MessagesView.js'></script>
+  <script src='./views/FavoritesView.js'></script>
+  <script src='./views/FormView.js'></script>
+
+
+  <script>
+    var data = [{name:'ryan', message:'hello'},{name:'ryan', message:'goodbye'}];
+    $(function(){
+      var app = new App({messages: new Messages(data), favorites: new Messages()})
+      var appView = new AppView({model:app});
+    });
+  </script>
+</body>
+</html>
+
+
