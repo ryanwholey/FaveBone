@@ -1,0 +1,46 @@
+#body{
+  display:flex;
+  justify-content: center;
+}
+#root{
+  position: relative;
+  border: 3px solid darkgrey;
+  background: lightskyblue;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ul {
+  dislpay: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+ul > li > span{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.name {
+  font-size: 1.3em;
+}
+.message {
+  padding:4px 0 0 10px;
+}
+#app {
+
+  display: flex;
+  flex-direction: row;
+}
+.defaultTextBox {
+    margin: 5px 0;
+    height: 30px;
+    position: relative;
+    left: 0;
+    outline: none;
+    border: 3px solid darkgrey;
+    /*border-color: rgba(0,0,0,.15);*/
+    background-color: white;
+    font-size: 16px;
+}
