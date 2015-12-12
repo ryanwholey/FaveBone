@@ -1,6 +1,6 @@
 var MessagesView = Backbone.View.extend({
   tagName: 'ul',
-  initialize: function(){
+  initialize: function() {
     this.listenTo(this.collection, 'add', this.render);
   },
   render: function() {

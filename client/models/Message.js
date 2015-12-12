@@ -3,7 +3,7 @@ var Message = Backbone.Model.extend({
     name: 'Ryan',
     message: 'nothing to say'
   },
-  click: function(){
-    this.trigger('clicked', this);
+  toFavorites: function() {
+    this.trigger('toFavorites', this);
   }
 });

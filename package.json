@@ -1,5 +1,5 @@
 {
-  "name": "backbone example",
+  "name": "bbn",
   "version": "1.0.0",
   "description": "",
   "main": "./client/models/app.js",
