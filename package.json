@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "name": "backbone example",
-=======
   "name": "bbn",
->>>>>>> 5f6bacd749c40b5196f0a932c9d35dc7a4ac2336
   "version": "1.0.0",
   "description": "",
   "main": "./client/models/app.js",
