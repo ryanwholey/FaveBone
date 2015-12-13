@@ -37,7 +37,8 @@
     var data = [{name:'ryan', message:'hello'},{name:'ryan', message: 'goodbye'}];
     $(function(){
      // your code here!!
-    
+      var app = new App({messages: new Messages(data), favorites: new Messages()})
+      var appView = new AppView({model: app});
     });
   </script>
 </body>
